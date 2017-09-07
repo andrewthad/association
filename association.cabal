@@ -1,0 +1,24 @@
+name: association
+version: 0.1
+synopsis: Association List
+description: Association List
+homepage: https://github.com/andrewthad/association#readme
+license: BSD3
+license-file: LICENSE
+author: Andrew Martin
+maintainer: andrew.thaddeus@gmail.com
+copyright: 2017 Andrew Martin
+category: Containers
+build-type: Simple
+extra-source-files: README.md
+cabal-version: >=1.10
+
+library
+  hs-source-dirs: src
+  exposed-modules: Data.Association
+  build-depends: base >= 4.7 && < 5
+  default-language: Haskell2010
+
+source-repository head
+  type:     git
+  location: https://github.com/andrewthad/association
